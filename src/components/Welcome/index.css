@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: Bree Serif;
+  font-size: 45px;
+  font-weight: 900;
+  color: #f0bb03;
+}
+.description {
+  font-family: Bree Serif;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.subscribe-btn {
+  font-family: Bree Serif;
+  font-size: 15px;
+  color: black;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+  border-style: none;
+  box-sizing: content-box;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 55px;
+  }
+  .description {
+    font-size: 35px;
+  }
+  .subscribe-btn {
+    font-size: 20px;
+  }
+}
